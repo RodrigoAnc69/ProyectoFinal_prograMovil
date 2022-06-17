@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".pregunta">
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="276dp"
+        android:layout_height="55dp"
+        android:text="Respuesta 2"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="276dp"
+        android:layout_height="55dp"
+        android:text="Respuesta 3"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="195dp"
+        android:layout_height="43dp"
+        android:text="Pregunta?"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="195dp"
+        android:layout_height="43dp"
+        android:text="Categoria"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="276dp"
+        android:layout_height="55dp"
+        android:text="Respuesta 1"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="siguiente"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="655dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
